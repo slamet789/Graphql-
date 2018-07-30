@@ -29,17 +29,17 @@ dengan perintah :
 
 ```npm install express --save```
 
-![expressintasll](https://github.com/slamet789/Graphql-/blob/install1/pict/2.jpg)
+![expressintasll](https://github.com/slamet789/Graphql-/blob/install2/pict/2.jpg)
 
 Selanjutnya kita cek pada folder apakah node_modules dan package.json sudah ada apa belum dengan ```ls```
 
-![cek](https://github.com/slamet789/Graphql-/blob/install1/pict/3.jpg)
+![cek](https://github.com/slamet789/Graphql-/blob/install2/pict/3.jpg)
 
 Jika sudah ada, kita buat file example.js dan edit dengan nano menggunakan perintah
 
 ```nano example.js```
 
-![nano](https://github.com/slamet789/Graphql-/blob/install1/pict/4.jpg)
+![nano](https://github.com/slamet789/Graphql-/blob/install2/pict/4.jpg)
 
 tuliskan syntax :
 
@@ -85,14 +85,14 @@ Selanjutnya kita cek dengan perintah :
 
 ```node example.js```
 
-![start](https://github.com/slamet789/Graphql-/blob/install1/pict/5.jpg)
+![start](https://github.com/slamet789/Graphql-/blob/install2/pict/5.jpg)
 
 
 Buka ip host ke browser untuk mengeceknya pada port 3000
 
 Jika muncul tampilan seperti di bawah ini, maka graphql sudah jalan
 
-![cek1](https://github.com/slamet789/Graphql-/blob/install1/pict/6.jpg)
+![cek1](https://github.com/slamet789/Graphql-/blob/install2/pict/6.jpg)
 
 Kita juga bisa mengecek dengan menambahkan perintah
 
@@ -103,4 +103,4 @@ Kita juga bisa mengecek dengan menambahkan perintah
   ```
 Kemudian klik tombol play, maka akan muncul output berbentuk json di bagian kanan, seperti gambar di bawah ini :
 
-![cek2](https://github.com/slamet789/Graphql-/blob/install1/pict/7.jpg)
+![cek2](https://github.com/slamet789/Graphql-/blob/install2/pict/7.jpg)
