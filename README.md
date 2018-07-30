@@ -220,3 +220,37 @@ Edit schema.js menjadi seperti di bawah ini.
 	});
 	
 	module.exports = BlogAppSchema;
+
+* Membuat server.js
+```
+nano server.js
+```
+Isi script file server.js sebagai berikut :
+```
+// server.js
+
+/*  
+    Required modules {express and express-graphql} 
+    will be imported along with the schema object
+    from the schema.js file in src/schema.js 
+*/
+
+const express = require('express');
+const graphqlHTTP = require('express-graphql');
+const schema = require('./src/schema.js');
+
+let port = 3000;
+const app = express();
+app.use('/', graphqlHTTP({
+  schema: schema,
+  graphiql: true //set to false if you don't want graphiql enabled
+}));
+
+app.listen(port);
+console.log('GraphQL API server running at localhost:'+ port);
+```
+* Jalankan server.js dengan perintah seperti berikut :
+![9](https://github.com/slamet789/Graphql-/blob/config3/pict/9.jpg)
+
+* Selanjutnya coba melakukan tes aplikasi
+![10](https://github.com/slamet789/Graphql-/blob/config3/pict/10.jpg)
